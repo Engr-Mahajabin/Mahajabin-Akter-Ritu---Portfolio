@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionTitles from '../../Components/SectionTitles/SectionTitles';
-import img from '../../assets/profile_pic.jpeg';
+import img from '../../assets/portfolio_pic.png';
 
 
 const About = () => {
@@ -33,7 +33,7 @@ const About = () => {
                     </p>
                     <p className="text-gray-300 mb-2">
                         I also enhanced my problem-solving skills by completing the Competitive Programming course by Phitron,
-                        where I learned C++, data structures, and algorithms.
+                        where I learned C, C++, data structures, and algorithms.
                     </p>
                     <p className="text-gray-300 mb-6">
                         I'm constantly learning to grow as a well-rounded Software Engineer who builds scalable, meaningful products.
