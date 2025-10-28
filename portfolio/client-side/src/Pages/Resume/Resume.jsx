@@ -1,229 +1,175 @@
-// import React from "react";
-
-// const educationData = [
-//     {
-//         year: "2018 - 2022",
-//         title: "High School Degree",
-//         description:
-//             "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-//     },
-//     {
-//         year: "2018 - 2022",
-//         title: "Bachelor's Degree",
-//         description:
-//             "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-//     },
-//     {
-//         year: "2018 - 2022",
-//         title: "Master Degree",
-//         description:
-//             "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-//     },
-// ];
-
-// const experienceData = [
-//     {
-//         year: "2018 - 2022",
-//         title: "UI/UX Designer",
-//         description:
-//             "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-//     },
-//     {
-//         year: "2018 - 2022",
-//         title: "Full-Stack Developer",
-//         description:
-//             "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-//     },
-//     {
-//         year: "2018 - 2022",
-//         title: "Frontend Developer",
-//         description:
-//             "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-//     },
-// ];
-
-// const Resume = () => {
-//     return (
-//         <div className="w-full min-h-screen bg-gray-100 flex justify-center items-start py-10 px-4">
-//             <main className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl">
-//                 {/* Education */}
-//                 <section className="space-y-6">
-//                     <header>
-//                         <h2 className="text-green-600 text-2xl font-semibold pb-4 border-b border-gray-300">EDUCATION</h2>
-//                     </header>
-//                     <div className="border-l-2 border-gray-400 pl-6 space-y-6">
-//                         {educationData.map((item, index) => (
-//                             <div
-//                                 key={index}
-//                                 className="relative bg-white p-4 rounded-lg shadow hover:shadow-md transition duration-300"
-//                             >
-//                                 <div className="absolute w-4 h-4 bg-green-600 border-2 border-white rounded-full -left-8 top-4"></div>
-//                                 <h4 className="text-green-600 font-medium text-sm">{item.year}</h4>
-//                                 <h3 className="text-lg font-semibold text-gray-800 py-2">{item.title}</h3>
-//                                 <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
-//                             </div>
-//                         ))}
-//                     </div>
-//                 </section>
-
-//                 {/* Experience */}
-//                 <section className="space-y-6">
-//                     <header>
-//                         <h2 className="text-green-600 text-2xl font-semibold pb-4 border-b border-gray-300">EXPERIENCE</h2>
-//                     </header>
-//                     <div className="border-l-2 border-gray-400 pl-6 space-y-6">
-//                         {experienceData.map((item, index) => (
-//                             <div
-//                                 key={index}
-//                                 className="relative bg-white p-4 rounded-lg shadow hover:shadow-md transition duration-300"
-//                             >
-//                                 <div className="absolute w-4 h-4 bg-green-600 border-2 border-white rounded-full -left-8 top-4"></div>
-//                                 <h4 className="text-green-600 font-medium text-sm">{item.year}</h4>
-//                                 <h3 className="text-lg font-semibold text-gray-800 py-2">{item.title}</h3>
-//                                 <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
-//                             </div>
-//                         ))}
-//                     </div>
-//                 </section>
-//             </main>
-//         </div>
-//     );
-// };
-
-// export default Resume;
-
-
-// import React from 'react';
-// import SectionTitles from "../../Components/SectionTitles/SectionTitles";
-// import {
-//     VerticalTimeline,
-//     VerticalTimelineElement,
-// } from 'react-vertical-timeline-component';
-// import 'react-vertical-timeline-component/style.min.css';
-
-// // If using Material Icons or any React Icon Library:
-// import { MdWork, MdSchool, MdStar } from 'react-icons/md';
-
-// const Resume = () => {
-//     return (
-//         <div className="bg-black py-10 px-4">
-//             {/* <h2 className="text-3xl font-bold text-center mb-10 text-green-600">My Resume</h2> */}
-//             <SectionTitles heading="resume" subHeading="Check Out My"></SectionTitles>
-//             <VerticalTimeline>
-//                 <VerticalTimelineElement
-//                     className="vertical-timeline-element--work"
-//                     contentStyle={{ background: '#2196f3', color: '#fff' }}
-//                     contentArrowStyle={{ borderRight: '7px solid  #2196f3' }}
-//                     date="2011 - present"
-//                     iconStyle={{ background: '#2196f3', color: '#fff' }}
-//                     icon={<MdWork />}
-//                 >
-//                     <h3 className="vertical-timeline-element-title">Creative Director</h3>
-//                     <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-//                     <p>Creative Direction, User Experience, Visual Design, Team Leading</p>
-//                 </VerticalTimelineElement>
-
-//                 <VerticalTimelineElement
-//                     className="vertical-timeline-element--education"
-//                     date="2006 - 2010"
-//                     iconStyle={{ background: '#2196f3', color: '#fff' }}
-//                     icon={<MdSchool />}
-//                 >
-//                     <h3 className="vertical-timeline-element-title">Bachelor of Science</h3>
-//                     <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-//                     <p>Computer Science, Software Engineering</p>
-//                 </VerticalTimelineElement>
-
-//                 {/* <VerticalTimelineElement
-//                     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-//                     icon={<MdStar />}
-//                 /> */}
-//             </VerticalTimeline>
-//         </div>
-//     );
-// };
-
-// export default Resume;
-
-
-import React from 'react';
+import React from "react";
+import { motion } from "framer-motion";
 import SectionTitles from "../../Components/SectionTitles/SectionTitles";
 import {
     VerticalTimeline,
     VerticalTimelineElement,
-} from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import { FaGraduationCap, FaBriefcase } from 'react-icons/fa';
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import { FaGraduationCap, FaBriefcase } from "react-icons/fa";
 
+// ====== Data ======
 const educationData = [
     {
         id: 1,
-        title: "Bachelor of Science in Computer Science",
-        institution: "XYZ University",
-        date: "2015 - 2019",
-        description: "Graduated with honors. Focused on software development and algorithms.",
+        title: "B.Sc in Computer Science and Engineering",
+        institution: "National University (Dhaka Mohanagar Mohila College)",
+        date: "2018 - 2022",
+        description: [
+            "Graduated with honors.",
+            "Focused on software development, algorithms, and system design.",
+        ],
     },
     {
         id: 2,
-        title: "High School Diploma",
-        institution: "ABC High School",
-        date: "2013 - 2015",
-        description: "Completed higher secondary education with science major.",
+        title: "Higher Secondary Certificate (HSC)",
+        institution: "Dhaka Mohanagar Mohila College",
+        date: "2016 - 2017",
+        description: ["Completed HSC in Science stream with outstanding results."],
+    },
+    {
+        id: 3,
+        title: "Secondary School Certificate (SSC)",
+        institution: "Sher-E Bangla Balika Mohaviddalay",
+        date: "2016",
+        description: ["Completed SSC in Science stream with outstanding results."],
     },
 ];
 
 const workExperienceData = [
     {
         id: 1,
-        title: "Software Engineer",
-        company: "Awesome Company",
-        date: "Jun 2019 - Present",
-        description: "Developing web applications using React and Node.js.",
+        title: "Frontend Developer Intern",
+        company: "ViretaDev",
+        date: "July 2025 - October 2025",
+        description: [
+            "Built a Hotel Management System & WorkStation projects using React, Bootstrap, and Tailwind CSS.",
+            "Focused on scalable, responsive, and user-friendly interfaces.",
+            "Implemented dynamic forms, dashboards, and real-time data updates.",
+            "Optimized performance and enhanced user experience.",
+        ],
     },
     {
         id: 2,
-        title: "Intern Developer",
-        company: "Tech Startup",
-        date: "Jan 2019 - May 2019",
-        description: "Assisted in building features for the company website.",
+        title: "Frontend Developer Intern",
+        company: "CodeAlpha",
+        date: "March 2025 - April 2025",
+        description: [
+            "Developed 3 mini projects using HTML, CSS, and JavaScript:",
+            "• Image Gallery with filtering and lightbox functionality",
+            "• Calculator app with responsive layout and proper validation",
+            "• Personal Portfolio website showcasing skills and projects",
+            "Learned hands-on front-end fundamentals and DOM manipulation.",
+        ],
     },
 ];
 
+// ====== Component ======
 const Resume = () => {
     return (
-        <div className="bg-black py-10 px-4">
-            <SectionTitles heading="resume" subHeading="Check Out My"></SectionTitles>
-            <VerticalTimeline>
-                {/* Education Section */}
-                {educationData.map(({ id, title, institution, date, description }) => (
-                    <VerticalTimelineElement
-                        key={id}
-                        className="vertical-timeline-element--education"
-                        date={date}
-                        iconStyle={{ background: '#6fba1c', color: '#fff' }}
-                        icon={<FaGraduationCap />}
-                    >
-                        <h3 className="vertical-timeline-element-title">{title}</h3>
-                        <h4 className="vertical-timeline-element-subtitle">{institution}</h4>
-                        <p>{description}</p>
-                    </VerticalTimelineElement>
-                ))}
+        <div className="bg-gradient-to-br from-black via-gray-900 to-black py-10 px-4 text-white">
+            {/* Section Title */}
+            <SectionTitles heading="Resume" subHeading="Check Out My Journey" />
 
-                {/* Work Experience Section */}
-                {workExperienceData.map(({ id, title, company, date, description }) => (
-                    <VerticalTimelineElement
-                        key={id}
-                        className="vertical-timeline-element--work"
-                        date={date}
-                        iconStyle={{ background: '#1c87ba', color: '#fff' }}
-                        icon={<FaBriefcase />}
-                    >
-                        <h3 className="vertical-timeline-element-title">{title}</h3>
-                        <h4 className="vertical-timeline-element-subtitle">{company}</h4>
-                        <p>{description}</p>
-                    </VerticalTimelineElement>
-                ))}
-            </VerticalTimeline>
+            {/* === Education === */}
+            <motion.div
+                className="max-w-6xl mx-auto mt-16"
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+            >
+                <h3 className="text-3xl font-bold mb-12 flex items-center justify-center gap-2 text-blue-400">
+                    🎓 Education
+                </h3>
+                <VerticalTimeline lineColor="#1f2937">
+                    {educationData.map(({ id, title, institution, date, description }) => (
+                        <VerticalTimelineElement
+                            key={id}
+                            date={date}
+                            contentStyle={{
+                                background: "linear-gradient(135deg, #0f172a, #1e293b)",
+                                color: "#fff",
+                                borderRadius: "12px",
+                                boxShadow: "0 4px 15px rgba(0,0,0,0.3)",
+                            }}
+                            contentArrowStyle={{ borderRight: "7px solid #1e293b" }}
+                            iconStyle={{
+                                background: "linear-gradient(135deg, #2563eb, #1d4ed8)",
+                                color: "#fff",
+                            }}
+                            icon={<FaGraduationCap />}
+                        >
+                            <h3 className="text-xl font-semibold text-blue-400">{title}</h3>
+                            <h4 className="text-gray-300">{institution}</h4>
+                            <ul className="text-gray-400 mt-2 list-disc list-inside space-y-1">
+                                {description.map((line, i) => (
+                                    <li key={i}>{line}</li>
+                                ))}
+                            </ul>
+                        </VerticalTimelineElement>
+                    ))}
+                </VerticalTimeline>
+            </motion.div>
+
+            {/* Divider */}
+            <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-gray-700 to-transparent my-16" />
+
+            {/* === Work Experience === */}
+            <motion.div
+                className="max-w-6xl mx-auto"
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+            >
+                <h3 className="text-3xl font-bold mb-12 flex items-center justify-center gap-2 text-blue-400">
+                    💼 Work Experience
+                </h3>
+                <VerticalTimeline lineColor="#1f2937">
+                    {workExperienceData.map(({ id, title, company, date, description }) => (
+                        <VerticalTimelineElement
+                            key={id}
+                            date={date}
+                            contentStyle={{
+                                background: "linear-gradient(135deg, #0f172a, #1e293b)",
+                                color: "#fff",
+                                borderRadius: "12px",
+                                boxShadow: "0 4px 15px rgba(0,0,0,0.3)",
+                            }}
+                            contentArrowStyle={{ borderRight: "7px solid #1e293b" }}
+                            iconStyle={{
+                                background: "linear-gradient(135deg, #2563eb, #1d4ed8)",
+                                color: "#fff",
+                            }}
+                            icon={<FaBriefcase />}
+                        >
+                            <h3 className="text-xl font-semibold text-blue-400">{title}</h3>
+                            <h4 className="text-gray-300">{company}</h4>
+                            <ul className="text-gray-400 mt-2 list-disc list-inside space-y-1">
+                                {description.map((line, i) => (
+                                    <li key={i}>{line}</li>
+                                ))}
+                            </ul>
+                        </VerticalTimelineElement>
+                    ))}
+                </VerticalTimeline>
+            </motion.div>
+
+            {/* === Resume Download Button === */}
+            <motion.div
+                className="text-center mt-16"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.8 }}
+            >
+                <a
+                    href="/Mahajabin_Akter_Ritu_Resume.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-block px-8 py-3 bg-gradient-to-r from-blue-500 to-blue-400 text-black font-semibold rounded-lg hover:scale-105 transform transition duration-300"
+                >
+                    📄 Download My Resume
+                </a>
+            </motion.div>
         </div>
     );
 };
