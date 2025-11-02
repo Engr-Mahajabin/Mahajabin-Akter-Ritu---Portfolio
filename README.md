@@ -1,18 +1,19 @@
 # Mahajabin Akter Ritu – Portfolio
 
 Welcome to my personal portfolio!  
-This website showcases my work, skills, and projects as a **Frontend Developer**, highlighting modern web technologies and responsive design.
+This website showcases my work, skills, projects, and career journey as a **Frontend Developer**, highlighting modern web technologies and interactive UI design.
 
 ## 🌐 Live Portfolio
 
-Check out the live portfolio here: (https://client-side-ten-iota.vercel.app/)
+Check out my live portfolio here:  
+[https://client-side-ten-iota.vercel.app/](https://client-side-ten-iota.vercel.app/)
 
 ---
 
 ## 💻 About Me
 
-I am a passionate **Frontend Developer** with experience in building responsive and interactive web applications.  
-This portfolio demonstrates my expertise in **React**, **Vite**, **Tailwind CSS**, and modern web development practices.
+I am a passionate **Frontend Developer** with expertise in building **responsive, interactive, and visually appealing web applications**.  
+This portfolio demonstrates my proficiency in **React**, **Vite**, **Tailwind CSS**, and **Framer Motion** for animations and smooth UI interactions.
 
 ---
 
@@ -20,6 +21,7 @@ This portfolio demonstrates my expertise in **React**, **Vite**, **Tailwind CSS*
 
 - **Frontend:** React, Vite  
 - **Styling:** Tailwind CSS  
+- **Animations:** Framer Motion  
 - **Routing & State:** React Router, React Hooks  
 - **Deployment:** Vercel  
 
@@ -28,7 +30,10 @@ This portfolio demonstrates my expertise in **React**, **Vite**, **Tailwind CSS*
 ## 📌 Featured Sections
 
 ### About Me
-Brief introduction highlighting my skills, education, and career goals.
+A brief introduction highlighting my skills, education, and career goals.
+
+### Resume
+Download or view my **professional resume** to learn more about my experience and achievements.
 
 ### Skills
 Visual showcase of my technical skills, tools, and proficiency.
@@ -41,22 +46,20 @@ Easy ways to reach me via email or social media links.
 
 ---
 
-## 📫 Contact Me
-
-- **Email:** mahajabin.ritu@example.com  
-- **LinkedIn:** [https://www.linkedin.com/in/mahajabinritu](https://www.linkedin.com/in/mahajabinritu)  
-- **GitHub:** [https://github.com/Engr-Mahajabin](https://github.com/Engr-Mahajabin)  
-
----
-
 ## ⭐ Highlights
 
 - Fully responsive and modern design  
-- Smooth animations and interactive UI components  
+- Smooth animations using **Framer Motion**  
+- Interactive projects showcase with live demos  
 - Hosted live with **Vercel** for production-ready performance  
-- Perfectly showcases skills, projects, and contact information  
+- Perfectly showcases skills, resume, projects, and contact information  
 
 ---
 
-**Made with ❤️ by Mahajabin Akter Ritu**
+## 📫 Contact Me
 
+- **Email:** mahajabin.ritu98@example.com  
+- **LinkedIn:** https://www.linkedin.com/in/mahajabin-akter-ritu-0366432b3/  
+- **GitHub:** https://github.com/Engr-Mahajabin
+- 
+**Made with ❤️ by Mahajabin Akter Ritu**
