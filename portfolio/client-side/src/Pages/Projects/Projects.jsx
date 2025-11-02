@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import projectsData from "./projectsData";
+import projectsData from "./projectsData.js";
 import SectionTitles from "../../Components/SectionTitles/SectionTitles";
 
 const Projects = () => {
