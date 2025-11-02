@@ -162,7 +162,7 @@ const Resume = () => {
                 transition={{ duration: 0.8 }}
             >
                 <a
-                    href="/Mahajabin_Akter_Ritu_Resume.pdf"
+                    href="https://drive.google.com/file/d/1H4w_eaNm9I5_Of-1KcM3QZNpSgxCeBup/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-block px-8 py-3 bg-gradient-to-r from-blue-500 to-blue-400 text-black font-semibold rounded-lg hover:scale-105 transform transition duration-300"

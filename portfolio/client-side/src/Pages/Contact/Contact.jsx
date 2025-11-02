@@ -42,7 +42,7 @@ const Contact = () => {
             <SectionTitles heading="Get In Touch" subHeading="Feel free to contact me anytime" />
 
             <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
-                
+
                 {/* Contact Form */}
                 <div className="bg-black p-8 rounded-lg shadow-md border border-gray-800">
                     <h3 className="text-xl font-semibold mb-6 text-blue-400">Message Me</h3>
@@ -77,10 +77,10 @@ const Contact = () => {
                         <a href="mailto:mahajabin.ritu98@gmail.com" target="_blank" rel="noreferrer">
                             <FaEnvelope className="hover:text-blue-400" />
                         </a>
-                        <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Engr-Mahajabin" target="_blank" rel="noreferrer">
                             <FaGithub className="hover:text-blue-400" />
                         </a>
-                        <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/mahajabin-akter-ritu-0366432b3/" target="_blank" rel="noreferrer">
                             <FaLinkedin className="hover:text-blue-400" />
                         </a>
                     </div>
